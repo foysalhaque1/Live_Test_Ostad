@@ -1,5 +1,8 @@
+
+import 'class.dart';
 void main() {
-  print('hello world');
-  print('hi');
-  print('kkkk');
+Car car=Car(brand: 'Toyota', model: 'Corola', year: 2015);
+car.display();
+car.carAge();
+
 }
